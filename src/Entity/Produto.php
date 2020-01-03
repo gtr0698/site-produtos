@@ -1,5 +1,5 @@
 <?php
-namespace src\Entity; 
+namespace Site\Entity; 
 
 class Produto {
 	private $id;
