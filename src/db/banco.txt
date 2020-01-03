@@ -1,0 +1,6 @@
+create table produto (
+	id integer PRIMARY KEY NOT NULL auto_increment,
+    descricao varchar(255),
+    valor varchar(255),
+    peso varchar(255)
+);
