@@ -1,5 +1,16 @@
 <?php 
 require __DIR__ . '/../cabecalho-html.php';
+
+use src\dao\ProdutoDao;
+
+$dao = new ProdutoDao();
+
+$produtos = $dao->listAll();
+
+var_dump($produtos);
+exit;
+
+
 ?>
 <table class="table">
   <thead>
